@@ -1,4 +1,4 @@
-import { BookOpen, Coffee, Dumbbell, GlassWater, Hourglass, ListTodo, Moon, NotebookPen, Repeat, Scale, Smile, Timer, Wallet, Wind, type LucideIcon } from 'lucide-react';
+import { BookOpen, BookText, Coffee, Dumbbell, Flame, Footprints, GlassWater, Hourglass, ListTodo, Moon, NotebookPen, Pill, Repeat, Scale, Smile, Timer, Wallet, Wind, type LucideIcon } from 'lucide-react';
 
 export interface ModuleMeta {
   id: string;
@@ -125,5 +125,37 @@ export const META = meta({
     tagline: 'Guided breathing in a minute',
     description: 'Slow down with guided breathing patterns. Follow the circle as it grows and shrinks.',
     features: ['Box, 4-7-8 and calm patterns', 'One, three or five minutes', 'Mindful minutes tracked'],
+  },
+  calories: {
+    name: 'Calories',
+    icon: Flame,
+    color: '#B55E2F',
+    tagline: 'Track what you eat through the day',
+    description: 'Log meals and snacks in seconds. See how your daily calories compare with your goal and your weekly average.',
+    features: ['Meal-based calorie logging', 'Daily goal ring with left or over state', 'Seven-day calorie trend'],
+  },
+  steps: {
+    name: 'Steps',
+    icon: Footprints,
+    color: '#4D7E62',
+    tagline: 'Daily steps and consistency',
+    description: 'Log your daily step count and keep your walking streak visible all week.',
+    features: ['Daily step entries', 'Adjustable step goal', 'Goal-hit count over the last 7 days'],
+  },
+  medications: {
+    name: 'Medications',
+    icon: Pill,
+    color: '#8D6F4A',
+    tagline: 'Keep a simple dose log',
+    description: 'A lightweight record of what you took and when, useful for reviewing your routine.',
+    features: ['Quick medication log', 'History with date and time', 'Seven-day dose count chart'],
+  },
+  journal: {
+    name: 'Journal',
+    icon: BookText,
+    color: '#6D7C8E',
+    tagline: 'Write a few lines each day',
+    description: 'Capture thoughts in short daily entries and search past notes when you want to reflect.',
+    features: ['Dated daily entries', 'Search by keyword', 'Private, on-device storage'],
   },
 });

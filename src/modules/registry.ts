@@ -14,6 +14,10 @@ import { ReadingScreen } from './Reading';
 import { WeightScreen } from './Weight';
 import { CountdownsScreen } from './Countdowns';
 import { BreatheScreen } from './Breathe';
+import { CaloriesScreen } from './Calories';
+import { StepsScreen } from './Steps';
+import { MedicationsScreen } from './Medications';
+import { JournalScreen } from './Journal';
 import { useHabitsBadge, useTasksBadge } from './badges';
 
 export interface AppModule extends ModuleMeta {
@@ -27,10 +31,14 @@ export const MODULES: AppModule[] = [
   { ...META.tasks, Screen: TasksScreen, useBadge: useTasksBadge },
   { ...META.habits, Screen: HabitsScreen, useBadge: useHabitsBadge },
   { ...META.water, Screen: WaterScreen },
+  { ...META.calories, Screen: CaloriesScreen },
+  { ...META.steps, Screen: StepsScreen },
   { ...META.caffeine, Screen: CaffeineScreen },
   { ...META.sleep, Screen: SleepScreen },
+  { ...META.medications, Screen: MedicationsScreen },
   { ...META.focus, Screen: FocusScreen },
   { ...META.mood, Screen: MoodScreen },
+  { ...META.journal, Screen: JournalScreen },
   { ...META.notes, Screen: NotesScreen },
   { ...META.money, Screen: MoneyScreen },
   { ...META.workouts, Screen: WorkoutsScreen },

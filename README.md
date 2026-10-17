@@ -11,10 +11,14 @@ Everything is stored **only on your device** (localStorage). There are no accoun
 | **Tasks** | Today / Upcoming / Someday / Done, due dates, important flag, overdue highlighting |
 | **Habits** | Daily check-off, 7-day backfill grid, streaks, icon per habit |
 | **Water** | Quick add 150/250/500 ml or custom, goal ring, weekly chart |
+| **Calories** | Meal + snack calorie logging, daily goal ring, 7-day average |
+| **Steps** | Daily step logging, adjustable goal, weekly consistency chart |
 | **Caffeine** | Drink presets, live "mg in your system" (5h half-life), decay curve, sleep-safe time, daily limit |
 | **Sleep** | Bed/wake log with quality, 7-night chart, sleep debt, late-caffeine warning |
+| **Medications** | Simple dose log with date/time history and weekly count |
 | **Focus** | Pomodoro 25/5/15 that keeps running app-wide, notification + chime when done |
 | **Mood** | 5-point check-in with optional note, 5-week calendar, journal |
+| **Journal** | Dated daily entries with search |
 | **Notes** | Pinned + searchable notes, autosave |
 | **Money** | Expenses by category, monthly budget with what is left, currency choice, 7-day chart |
 | **Workouts** | Nine workout types, weekly minutes goal ring, history |
