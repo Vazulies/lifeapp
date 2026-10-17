@@ -41,6 +41,16 @@ npm run build      # production build in dist/
 npm run preview    # serve the production build
 ```
 
+## GitHub Pages
+
+A workflow at `.github/workflows/deploy-pages.yml` deploys `dist/` to GitHub Pages on each push to `main`.
+If your Pages site is blank, make sure in GitHub repository settings:
+
+- **Pages → Build and deployment → Source** is set to **GitHub Actions**.
+- The latest workflow run succeeded.
+- If you previously used the `gh-pages` branch or `/docs`, clear old settings and let the workflow manage deployments.
+
+
 ## Structure
 
 ```
